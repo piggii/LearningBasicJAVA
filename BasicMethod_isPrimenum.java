@@ -1,3 +1,4 @@
+/*This progrm is find prime numbers 1 to 500 */
 public class BasicMethod_isPrimenum {
     public static void main(String[] args) {
         System.out.println("Prime numbers between 1 to 500 :");
