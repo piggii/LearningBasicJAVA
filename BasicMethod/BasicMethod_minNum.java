@@ -1,4 +1,5 @@
 import java.util.*;
+
 public class BasicMethod_minNum {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -8,11 +9,12 @@ public class BasicMethod_minNum {
         float num2 = input.nextFloat();
         System.out.print("Enter third number : ");
         float num3 = input.nextFloat();
-        System.out.print("The Smallest number is "+(minimum(num1,num2,num3)));
+        System.out.print("The Smallest number is " + (minimum(num1, num2, num3)));
 
     }
-    public static float minimum(float number1, float number2, float number3){
-        float number = Math.min(Math.min(number1,number2),number3);
+
+    public static float minimum(float number1, float number2, float number3) {
+        float number = Math.min(Math.min(number1, number2), number3);
         return number;
     }
 }
