@@ -36,6 +36,7 @@ public class FoodOrder {
                 int Complete = 1;
                 System.out.println("----------------------------------");
                 System.out.println("     \"Order successfully!!\"     ");
+                System.out.println("----------------------------------");
                 return Complete;
 
             case 1:
