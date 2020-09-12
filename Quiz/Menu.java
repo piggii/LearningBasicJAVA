@@ -14,7 +14,6 @@ public class Menu {
 
     public static void selectMenu() {
         Scanner input = new Scanner(System.in);
-        
         System.out.println("Enter order (enter \"0\" to complete order)");
         System.out.println("Order number :");
         for (;;) {
