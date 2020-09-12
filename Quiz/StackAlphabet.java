@@ -7,13 +7,13 @@ public class StackAlphabet {
         System.out.print("Enter Alphabet : ");
         char inputAlphabet = input.nextLine().charAt(0);
         int Alphabet = (int) inputAlphabet;
-        if (Alphabet >= 65 && Alphabet <= 90) {
+        if ( Alphabet >= 65 && Alphabet <= 90 ) {
             for (int i = 65; i <= Alphabet; i++) {
                 KeepAlphabet = KeepAlphabet + (char) i;
                 System.out.println(KeepAlphabet);
             }
-        } else if (Alphabet >= 97 && Alphabet <= 122) {
-            for (int i = 97; i <= Alphabet; i++) {
+        } else if ( Alphabet >= 97 && Alphabet <= 122 ) {
+            for ( int i = 97; i <= Alphabet; i++ ) {
                 KeepAlphabet = KeepAlphabet + (char) i;
                 System.out.println(KeepAlphabet);
             }
