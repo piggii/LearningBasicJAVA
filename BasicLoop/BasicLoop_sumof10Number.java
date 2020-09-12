@@ -7,7 +7,7 @@ public class BasicLoop_sumof10Number {
         for (int i = 1; i < 11; i++){
             sum = sum + i;
         }
-        System.out.println("       1+2+3+4+5+6+7+8+9+10 = "+sum);
+        System.out.println("       1+2+3+4+5+6+7+8+9+10 = "+sum+" ");
         System.out.println("--------------------------------------");
     }
 }
