@@ -24,7 +24,7 @@ public class FoodOrder {
       if (price == 1) {
         sum = sum - 1;
         System.out.println("----------------------------------");
-        System.out.println("       Total : " + sum + " Baht       ");
+        System.out.println("       Total : " + sum + " Baht   ");
         System.out.println("----------------------------------");
         break;
       }
