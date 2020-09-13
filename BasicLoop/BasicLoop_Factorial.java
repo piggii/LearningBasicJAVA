@@ -8,7 +8,6 @@ public class BasicLoop_Factorial {
         int number = input.nextInt();
         int factorial = 1;
         for (int i = 1; i <= number; i++) {
-
             factorial = factorial * i;
         }
         System.out.print(number + "! = " + factorial);
