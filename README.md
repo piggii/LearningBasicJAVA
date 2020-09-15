@@ -6,5 +6,6 @@
 ✅ Switch <br/>
 ✅ Method <br/>
 ✅ For Loop <br/>
-🔳 OOP <br/>
+☑️ OOP <br/>
+☑️ GUI <br/>
 ✅ Quiz <br/>
