@@ -7,6 +7,5 @@
 ✅ Method <br/>
 ✅ For Loop <br/>
 ☑️ OOP <br/>
-    <dd>✔️ classes & objects </dd> <br/>
 ☑️ GUI <br/>
 ✅ Quiz <br/>
