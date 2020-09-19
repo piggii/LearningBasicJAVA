@@ -9,3 +9,4 @@
 ☑️ OOP <br/>
 ☑️ GUI <br/>
 ✅ Quiz <br/>
+☑️ Mini project <br/>
