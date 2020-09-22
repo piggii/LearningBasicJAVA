@@ -11,7 +11,8 @@ public class FoodOrder {
     System.out.println("2. Noodle Soup");
     System.out.println("3. Papaya Salad");
     System.out.println("4. Pad Thai");
-    System.out.println("5. Fried rice");
+    System.out.println("5. Fried Rice");
+    System.out.println("6. Corn Soup");
     System.out.println("----------------------------------");
     System.out.println("Enter order number");
     System.out.println("**enter \"0\" to confirm order**");
@@ -56,10 +57,14 @@ public class FoodOrder {
         return PadThai;
       case 5:
         int FriedRice = 35;
-        System.out.println("Fried rice                 35 Baht");
+        System.out.println("Fried Rice                 35 Baht");
         return FriedRice;
+      case 6:
+        int CornSoup = 80;
+        System.out.println("Corn Soup                  80 Baht");
+        return CornSoup;
       default:
-        System.out.println("******Please Enter only 0-5*******");
+        System.out.println("******Please Enter only 0-6*******");
         return 0;
     }
   }
