@@ -8,7 +8,7 @@ public class TestUserInputToArray {
     public static void addnewstring() {
         Scanner userInput = new Scanner(System.in);
         String exit = "EXIT";
-        int length = 10;
+        int length = 5;
         String[] newstring = new String[length];
         System.out.println("Enter new string : ");
         for (int i = 0; i < length; i++) {
