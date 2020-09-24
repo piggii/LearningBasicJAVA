@@ -17,7 +17,7 @@ public class UserInputToArray {
             myMenu[myMenu.length -1] = Menu;
             if(Menu.toUpperCase().equals(exit)){
                 for(int i = 0; i < myMenu.length; i++){
-                    System.out.println(i+1+"."+myMenu[i]);
+                    System.out.println(i+1+". "+myMenu[i]);
                 }  
                 break;
             }
