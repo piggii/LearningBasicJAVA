@@ -15,9 +15,13 @@ public class UserInputToArray {
             myMenu = newMenu;
             myMenu[myMenu.length -1] = Menu;
             if(Menu.toUpperCase().equals(exit)) {
+                System.out.println("----------------------------------");
+                System.out.println("               MENU               ");
+                System.out.println("----------------------------------");
                 for(int i = 0; i < myMenu.length - 1; i++) {
                     System.out.println(i+1+". "+myMenu[i]);
-                }  
+                } 
+                System.out.println("----------------------------------"); 
                 break;
             } 
         }
