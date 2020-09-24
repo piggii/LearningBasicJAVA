@@ -3,7 +3,6 @@ import java.util.*;
 public class UserInputToArray {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
         String exit = "EXIT";
         System.out.println("Enter new menu : ");
         int size = 0;
