@@ -19,8 +19,7 @@ public class UserInputToArray {
                     System.out.println(i+1+". "+myMenu[i]);
                 }  
                 break;
-            }
-            
+            } 
         }
     }
 }
