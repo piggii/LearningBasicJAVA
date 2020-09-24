@@ -7,14 +7,14 @@ public class UserInputToArray {
         System.out.println("Enter new menu : ");
         int size = 0;
         String myMenu[] = new String[size];
-        for(;;){
+        for(;;) {
             String Menu = input.nextLine();
             int newSize = myMenu.length + 1;
             String newMenu[] = new String[newSize];
             System.arraycopy(myMenu,0,newMenu,0,myMenu.length);
             myMenu = newMenu;
             myMenu[myMenu.length -1] = Menu;
-            if(Menu.toUpperCase().equals(exit)){
+            if(Menu.toUpperCase().equals(exit)) {
                 for(int i = 0; i < myMenu.length - 1; i++){
                     System.out.println(i+1+". "+myMenu[i]);
                 }  
