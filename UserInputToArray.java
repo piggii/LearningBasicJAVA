@@ -19,9 +19,7 @@ public class UserInputToArray {
             myMenu[myMenu.length - 1] = Menu;
             if (Menu.toUpperCase().equals(exit)) {
                 List<String> list = new ArrayList<String>(Arrays.asList(myMenu));
-                list.remove("EXIT");
-                list.remove("Exit");
-                list.remove("exit");
+                list.remove(myMenu.length - 1);
                 myMenu = list.toArray(new String[0]);
                 System.out.println("----------------------------------");
                 System.out.println("               MENU               ");
