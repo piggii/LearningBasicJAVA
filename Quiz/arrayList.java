@@ -7,6 +7,7 @@ public class arrayList {
         String exit = "EXIT";
         ArrayList<String> myMenu = new ArrayList<String>();
         ArrayList<Integer> myPrice = new ArrayList<Integer>();
+        System.out.println("**Please enter \"exit\" to exit the program**");
         for (;;) {
             System.out.print("Enter new menu : ");
             String Menu = inputMenu.nextLine();
