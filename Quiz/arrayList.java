@@ -28,10 +28,10 @@ public class arrayList {
         }
     }
 
-    public static String spaceBar(int i) {
+    public static String spaceBar(int length) {
         String space = "";
-        for (int j = i; j < 24; j++) {
-            String newSpace = " ";
+        String newSpace = " ";
+        for (int LENGTH = length; LENGTH < 24; LENGTH++) {
             space = space + newSpace;
         }
         return space;
