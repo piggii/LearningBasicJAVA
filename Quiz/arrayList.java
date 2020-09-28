@@ -15,8 +15,8 @@ public class arrayList {
                 System.out.println("----------------------------------");
                 System.out.println("               MENU               ");
                 System.out.println("----------------------------------");
-                for (int i = 0; i < myMenu.size(); i++) {
-                    System.out.println(i + 1 + ". " + myMenu.get(i) + myPrice.get(i) + " Baht");
+                for (int index = 0; index < myMenu.size(); index++) {
+                    System.out.println(index + 1 + ". " + myMenu.get(index) + myPrice.get(index) + " Baht");
                 }
                 System.out.println("----------------------------------");
                 break;
