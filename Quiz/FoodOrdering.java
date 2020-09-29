@@ -20,12 +20,12 @@ public class FoodOrdering {
             int mode = inputMode.nextInt();
             if (mode == 1) {
                 System.out.println("");
-                System.out.println(">>>>>>\"ORDERING FOOD MODE\"<<<<<<");
+                System.out.println(">>>>>>>\"ORDERING FOOD MODE\"<<<<<<<");
                 showMenu();
 
             } else if (mode == 2) {
                 System.out.println("");
-                System.out.println(">>>>>>>\"ADD NEW MENU MODE\"<<<<<<<");
+                System.out.println(">>>>>>>\"ADD NEW MENU MODE\"<<<<<<<<");
                 addMenu();
 
             } else {
@@ -61,13 +61,14 @@ public class FoodOrdering {
             System.out.print("Enter new menu : ");
             String menu = inputMenu.nextLine();
             if (menu.toUpperCase().equals(exit)) {
-                System.out.println("----------------------------------");
+                /*System.out.println("----------------------------------");
                 System.out.println("             NEW MENU             ");
                 System.out.println("----------------------------------");
                 for (int index = 0; index < newMenu.size(); index++) {
                     System.out.println(index + 1 + ". " + newMenu.get(index) + newPrice.get(index) + " Baht");
                 }
-                System.out.println("----------------------------------\n");
+                System.out.println("----------------------------------\n");*/
+                System.out.println("");
                 return newMenu;
             }
             menu = menu + spaceBar(menu.length());
