@@ -3,6 +3,7 @@ import java.util.*;
 public class FoodOrdering {
     public static ArrayList<String> newMenu = new ArrayList<String>();
     public static ArrayList<Integer> newPrice = new ArrayList<Integer>();
+    public static int priceLen;
 
     public static void main(String[] args) {
         SelectMode();
@@ -72,9 +73,9 @@ public class FoodOrdering {
                 System.out.println("");
                 return newMenu;
             }
+            addPrice();
             menu = menu + spaceBar(menu.length());
             newMenu.add(menu);
-            addPrice();
         }
     }
 
@@ -84,6 +85,7 @@ public class FoodOrdering {
         Scanner inputPrice = new Scanner(System.in);
         System.out.print("Enter price : ");
         int price = inputPrice.nextInt();
+        priceLen = Integer.toString(price).length();
         newPrice.add(price);
         return newPrice;
     }
@@ -93,8 +95,18 @@ public class FoodOrdering {
     public static String spaceBar(int length) {
         String space = "";
         String newSpace = " ";
-        for (int LENGTH = length; LENGTH < 24; LENGTH++) {
-            space = space + newSpace;
+        if (priceLen == 1) {
+            for (int LENGTH = length; LENGTH < 25; LENGTH++) {
+                space = space + newSpace;
+            }
+        } else if (priceLen == 2) {
+            for (int LENGTH = length; LENGTH < 24; LENGTH++) {
+                space = space + newSpace;
+            }
+        } else if (priceLen == 3) {
+            for (int LENGTH = length; LENGTH < 23; LENGTH++) {
+                space = space + newSpace;
+            }
         }
         return space;
     }
