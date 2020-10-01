@@ -10,3 +10,4 @@
 ☑️ GUI <br/>
 ✅ Quiz <br/>
 ☑️ Project <br/>
+☑ Array <br/>
