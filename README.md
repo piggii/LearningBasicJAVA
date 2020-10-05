@@ -6,7 +6,7 @@
 ✅ Switch <br/>
 ✅ Method <br/>
 ✅ For Loop <br/>
-☑ Array <br/>
+☑ Arrays <br/>
 ☑️ OOP <br/>
 ☑ GUI <br/>
 ✅ Quiz <br/>
