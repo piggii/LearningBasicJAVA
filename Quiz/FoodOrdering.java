@@ -60,7 +60,7 @@ public class FoodOrdering {
             } else {
                 newOrder.add(selectOrder);
                 Selected.add(selectOrder);
-                System.out.println(allMenu.get(Selected.get(0)-1) + allPrice.get(Selected.get(0)-1) + " Baht");
+                System.out.println(allMenu.get(Selected.get(0) - 1) + allPrice.get(Selected.get(0) - 1) + " Baht");
                 Selected.clear();
             }
         }
