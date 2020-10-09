@@ -10,9 +10,9 @@ public class FoodOrdering {
     public static int priceLen;
 
     public static void main(String[] args) {
-        // Select mode between "Ordering food" and "Add new menu"
         Scanner inputMode = new Scanner(System.in);
         for (;;) {
+            // Select mode between "Ordering food" and "Add new menu"
             System.out.println(">>> SELECT MODE <<<");
             System.out.println("[1] Ordering food");
             System.out.println("[2] Add new menu");
@@ -35,7 +35,7 @@ public class FoodOrdering {
         }
     }
 
-    // Show all menu
+    // Show and order all menu
 
     public static void orderingMenu() {
         Scanner inputOrder = new Scanner(System.in);
@@ -50,7 +50,7 @@ public class FoodOrdering {
             System.out.println(INDEX + 1 + ". " + allMenu.get(INDEX) + allPrice.get(INDEX) + " Baht");
         }
         System.out.println("----------------------------------");
-        System.out.println("**Enter \"0\" to confirm order**");
+        System.out.println("*** Enter \"0\" to confirm order ***");
         System.out.println("Enter number to select order : ");
         for (int trig = 0; trig < 1;) {
             int selectOrder = inputOrder.nextInt();
@@ -65,6 +65,8 @@ public class FoodOrdering {
             }
         }
     }
+
+    // Calculate total price
 
     public static void calculate() {
         int total = 0;
@@ -83,13 +85,13 @@ public class FoodOrdering {
         newOrder.clear();
     }
 
-    // Add new menu and price from user
+    // Add new menu and price from the user
 
     public static void addnewMenu() {
         Scanner inputMenu = new Scanner(System.in);
         Scanner inputPrice = new Scanner(System.in);
         String exit = "EXIT";
-        System.out.println("**Enter \"exit\" to confirm**");
+        System.out.println("*** Enter \"exit\" to confirm ***");
         for (int trigger = 0; trigger < 1;) {
             System.out.print("Enter new menu : ");
             String menu = inputMenu.nextLine();
@@ -106,6 +108,8 @@ public class FoodOrdering {
             }
         }
     }
+
+    // Add space between message to adjust the display
 
     public static String spaceBar(int length) {
         String space = "";
