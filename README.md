@@ -10,5 +10,4 @@
 ✅ OOP <br/>
 ☑ GUI <br/>
 ✅ Quiz <br/>
-☑️ Project <br/>
 
