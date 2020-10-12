@@ -10,7 +10,7 @@ public class Test {
     // Print logs
     System.out.println("Array size : " + myArray.length);
     //System.out.println("New myArray item : " + myArray[0]);
-    // Input
+    // User input
     System.out.println("Enter name");
     String name = myObj.nextLine();
 
