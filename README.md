@@ -6,9 +6,8 @@
 ✅ Switch <br/>
 ✅ Method <br/>
 ✅ For Loop <br/>
-☑ Arrays <br/>
-☑️ OOP <br/>
+✅ Arrays <br/>
+✅ OOP <br/>
 ☑ GUI <br/>
 ✅ Quiz <br/>
-☑️ Project <br/>
 
