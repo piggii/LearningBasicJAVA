@@ -1,9 +1,9 @@
 import java.util.*;
 
 public class BasicMethod_getTotal {
-    public static int getTotal(int x, int y) {
-        int z = x + y;
-        return z;
+    public static int getTotal(int number1, int number2) {
+        int result = number1 + number2;
+        return result;
     }
 
     public static void main(String[] args) {
