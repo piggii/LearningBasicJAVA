@@ -5,7 +5,7 @@
 ✅ if-else <br/>
 ✅ Switch <br/>
 ✅ Method <br/>
-✅ For Loop <br/>
+✅ Loop <br/>
 ✅ Arrays <br/>
 ✅ OOP <br/>
 ☑️ GUI <br/>
