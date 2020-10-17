@@ -15,7 +15,7 @@ public class GUIJTextFieldJPassword {
         
         window.setSize(400,300);
         window.setMaximizedBounds(new Rectangle(800,600));
-        window.setTitle("Test JTextField");
+        window.setTitle("Test JTextField and JPasswordField");
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.add(lb1);
         window.add(text);
