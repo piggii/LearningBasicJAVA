@@ -8,6 +8,8 @@ public class GUIComponentFlowLayout {
         JButton button1 = new JButton("Open"); 
         JButton button2 = new JButton("Close");
         Cursor hc = new Cursor(Cursor.HAND_CURSOR);
+        
+        //FlowLayout
         FlowLayout f = new FlowLayout();
         f.setAlignment(FlowLayout.LEFT);
         f.setHgap(20);
