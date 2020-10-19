@@ -4,7 +4,7 @@ import java.awt.event.*;
 import java.awt.*;
 import javax.swing.*;
 
-//Create a program by Implement Event Listener
+// Create a program by Implement Event Listener
 
 public class GUIEventImplementInterface implements ActionListener {
     public GUIEventImplementInterface(){
