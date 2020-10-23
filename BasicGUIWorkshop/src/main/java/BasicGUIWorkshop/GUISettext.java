@@ -90,23 +90,23 @@ public class GUISettext extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void bt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bt1ActionPerformed
-        Color c = JColorChooser.showDialog(this, "Choose colors", Color.blue);
+        Color c = JColorChooser.showDialog(this, "Choose colors", Color.BLACK);
         lb1.setForeground(c);
     }//GEN-LAST:event_bt1ActionPerformed
 
     private void cb1ItemStateChanged(java.awt.event.ItemEvent evt) {//GEN-FIRST:event_cb1ItemStateChanged
         switch(cb1.getSelectedIndex()){
             case 0 : 
-                lb1.setFont(new Font("Tahoma",Font.PLAIN,24));
+                lb1.setFont(new Font("Tahoma",Font.PLAIN,18));
                 break;
             case 1 : 
-                lb1.setFont(new Font("Tahoma",Font.BOLD,24));
+                lb1.setFont(new Font("Tahoma",Font.BOLD,18));
                 break;
             case 2 : 
-                lb1.setFont(new Font("Tahoma",Font.ITALIC,24));
+                lb1.setFont(new Font("Tahoma",Font.ITALIC,18));
                 break;
             case 3 : 
-                lb1.setFont(new Font("Tahoma",Font.BOLD + Font.ITALIC,24));
+                lb1.setFont(new Font("Tahoma",Font.BOLD + Font.ITALIC,18));
                 break;
         }
     }//GEN-LAST:event_cb1ItemStateChanged
