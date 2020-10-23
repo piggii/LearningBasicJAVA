@@ -8,5 +8,5 @@
 ✅ Loop <br/>
 ✅ Arrays <br/>
 ✅ OOP <br/>
-☑️ GUI <br/>
+✅ GUI <br/>
 ✅ Quiz <br/>
